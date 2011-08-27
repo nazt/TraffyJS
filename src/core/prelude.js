@@ -63,6 +63,10 @@
 if (!window.Traffy) {
   Traffy = {
     /**
+     *  Dynamic data settings.
+     */
+      _service_endpoint: ['http://www.together.in.th/drupal'],
+    /**
      * Copies things from source into target.
      *
      * @access private
